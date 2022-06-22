@@ -83,7 +83,6 @@
             this.rdComum.TabStop = true;
             this.rdComum.Text = "Conta Comum";
             this.rdComum.UseVisualStyleBackColor = true;
-            this.rdComum.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // rdEspecial
             // 
@@ -106,7 +105,6 @@
             this.lblConta.Size = new System.Drawing.Size(71, 20);
             this.lblConta.TabIndex = 2;
             this.lblConta.Text = "Nr. Conta";
-            this.lblConta.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblLimite
             // 
@@ -117,7 +115,6 @@
             this.lblLimite.Size = new System.Drawing.Size(50, 20);
             this.lblLimite.TabIndex = 2;
             this.lblLimite.Text = "Limite";
-            this.lblLimite.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSaldo
             // 
@@ -128,7 +125,6 @@
             this.lblSaldo.Size = new System.Drawing.Size(47, 20);
             this.lblSaldo.TabIndex = 2;
             this.lblSaldo.Text = "Saldo";
-            this.lblSaldo.Click += new System.EventHandler(this.label1_Click);
             // 
             // grpSuperior
             // 
@@ -146,7 +142,6 @@
             this.grpSuperior.Size = new System.Drawing.Size(647, 88);
             this.grpSuperior.TabIndex = 3;
             this.grpSuperior.TabStop = false;
-            this.grpSuperior.Enter += new System.EventHandler(this.grpSuperior_Enter);
             // 
             // btnDepositar
             // 
@@ -158,6 +153,7 @@
             this.btnDepositar.TabIndex = 6;
             this.btnDepositar.Text = "DEPOSITAR";
             this.btnDepositar.UseVisualStyleBackColor = false;
+            this.btnDepositar.Click += new System.EventHandler(this.btnDepositar_Click);
             // 
             // btnSacar
             // 
@@ -169,6 +165,7 @@
             this.btnSacar.TabIndex = 7;
             this.btnSacar.Text = "SACAR";
             this.btnSacar.UseVisualStyleBackColor = false;
+            this.btnSacar.Click += new System.EventHandler(this.btnSacar_Click);
             // 
             // btnSair
             // 
@@ -190,6 +187,7 @@
             this.dtMovimento.Name = "dtMovimento";
             this.dtMovimento.Size = new System.Drawing.Size(118, 27);
             this.dtMovimento.TabIndex = 9;
+            this.dtMovimento.Leave += new System.EventHandler(this.dtMovimento_Leave);
             // 
             // txtValor
             // 
@@ -197,6 +195,7 @@
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(118, 23);
             this.txtValor.TabIndex = 10;
+            this.txtValor.Leave += new System.EventHandler(this.txtValor_Leave);
             // 
             // btnLancar
             // 
