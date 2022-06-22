@@ -2,34 +2,15 @@ namespace AvaliacaoTres
 {
     public partial class frmMovimento : Form
     {
-        public frmMovimento()
+        static List<contaBancaria> _listConta = new List<contaBancaria>();
+        private contaBancaria _contaAtual = null;
+        private int operacao = 0;
+
+        public frmConta()
         {
             InitializeComponent();
-        }
-
-        private void frmMovimento_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void grpSuperior_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLancar_Click(object sender, EventArgs e)
-        {
-
+            this.Size = new Size(685, 255);
+            _listConta = contaBancaria.geraContas();
         }
     }
 }

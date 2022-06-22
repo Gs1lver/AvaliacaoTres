@@ -152,9 +152,9 @@
             // 
             this.btnDepositar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnDepositar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDepositar.Location = new System.Drawing.Point(28, 129);
+            this.btnDepositar.Location = new System.Drawing.Point(22, 127);
             this.btnDepositar.Name = "btnDepositar";
-            this.btnDepositar.Size = new System.Drawing.Size(118, 48);
+            this.btnDepositar.Size = new System.Drawing.Size(134, 60);
             this.btnDepositar.TabIndex = 6;
             this.btnDepositar.Text = "DEPOSITAR";
             this.btnDepositar.UseVisualStyleBackColor = false;
@@ -163,9 +163,9 @@
             // 
             this.btnSacar.BackColor = System.Drawing.Color.LightCoral;
             this.btnSacar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSacar.Location = new System.Drawing.Point(162, 129);
+            this.btnSacar.Location = new System.Drawing.Point(176, 127);
             this.btnSacar.Name = "btnSacar";
-            this.btnSacar.Size = new System.Drawing.Size(118, 48);
+            this.btnSacar.Size = new System.Drawing.Size(134, 60);
             this.btnSacar.TabIndex = 7;
             this.btnSacar.Text = "SACAR";
             this.btnSacar.UseVisualStyleBackColor = false;
@@ -174,12 +174,13 @@
             // 
             this.btnSair.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnSair.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSair.Location = new System.Drawing.Point(504, 129);
+            this.btnSair.Location = new System.Drawing.Point(504, 127);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(118, 48);
+            this.btnSair.Size = new System.Drawing.Size(134, 60);
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // dtMovimento
             // 
